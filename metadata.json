@@ -1,0 +1,8 @@
+{
+  "name": "CryptoPilot AI",
+  "description": "AI-powered cryptocurrency market analysis, live data tracking, smart technical analysis, prediction recording and paper trading research assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

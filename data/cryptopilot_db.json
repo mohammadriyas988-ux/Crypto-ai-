@@ -1,0 +1,191 @@
+{
+  "predictions": [
+    {
+      "id": "pred-seed-1",
+      "symbol": "BTCUSDT",
+      "createdTimestamp": 1793130235835,
+      "horizonHours": 24,
+      "horizonTimestamp": 1793216635835,
+      "direction": "BULLISH",
+      "entryPrice": 84200,
+      "targetPrice": 87000,
+      "invalidationPrice": 82900,
+      "confidencePercent": 78,
+      "rationale": "Daily 200 EMA dynamic support bounce coincided with 4H Bullish Order Block and RSI oversold rebound.",
+      "keyFactors": [
+        "Bullish Order Block at $84,100",
+        "RSI Bullish Divergence on 1H",
+        "EMA 21 reclaiming"
+      ],
+      "status": "WIN",
+      "evaluatedAt": 1793216635835,
+      "evaluationPrice": 87150,
+      "actualReturnPercent": 3.5,
+      "isAiGenerated": true
+    },
+    {
+      "id": "pred-seed-2",
+      "symbol": "ETHUSDT",
+      "createdTimestamp": 1793173435835,
+      "horizonHours": 12,
+      "horizonTimestamp": 1793216635835,
+      "direction": "BEARISH",
+      "entryPrice": 2920,
+      "targetPrice": 2810,
+      "invalidationPrice": 2980,
+      "confidencePercent": 65,
+      "rationale": "Rejection at 4H Fair Value Gap with Bearish MACD crossover below zero line.",
+      "keyFactors": [
+        "Bearish FVG mitigation",
+        "Loss of 1H Market Structure (CHOCH)",
+        "Decreasing buyer volume"
+      ],
+      "status": "WIN",
+      "evaluatedAt": 1793216635835,
+      "evaluationPrice": 2805,
+      "actualReturnPercent": 3.93,
+      "isAiGenerated": true
+    },
+    {
+      "id": "pred-seed-3",
+      "symbol": "SOLUSDT",
+      "createdTimestamp": 1793231035835,
+      "horizonHours": 8,
+      "horizonTimestamp": 1793259835835,
+      "direction": "BULLISH",
+      "entryPrice": 162.5,
+      "targetPrice": 172,
+      "invalidationPrice": 158,
+      "confidencePercent": 72,
+      "rationale": "Ascending triangle breakout on 15m with high volume displacement.",
+      "keyFactors": [
+        "Buy-Side Liquidity sweep",
+        "EMA 9 > EMA 21 cross",
+        "Strong spot accumulation"
+      ],
+      "status": "WIN",
+      "evaluatedAt": 1793259835835,
+      "evaluationPrice": 170.8,
+      "actualReturnPercent": 5.1,
+      "isAiGenerated": true
+    },
+    {
+      "id": "pred-seed-4",
+      "symbol": "BTCUSDT",
+      "createdTimestamp": 1793295835835,
+      "horizonHours": 6,
+      "horizonTimestamp": 1793317435835,
+      "direction": "BULLISH",
+      "entryPrice": 86900,
+      "targetPrice": 89500,
+      "invalidationPrice": 85400,
+      "confidencePercent": 74,
+      "rationale": "Consolidation above previous week high with active 1H Fair Value Gap support.",
+      "keyFactors": [
+        "1H FVG respected",
+        "Higher Lows market structure",
+        "Funding rates neutral"
+      ],
+      "status": "PENDING",
+      "isAiGenerated": true
+    },
+    {
+      "id": "pred-seed-5",
+      "symbol": "SOLUSDT",
+      "createdTimestamp": 1793299435835,
+      "horizonHours": 12,
+      "horizonTimestamp": 1793342635835,
+      "direction": "BEARISH",
+      "entryPrice": 169.5,
+      "targetPrice": 161,
+      "invalidationPrice": 174,
+      "confidencePercent": 62,
+      "rationale": "Overbought 4H RSI with divergence near psychological resistance of $170.",
+      "keyFactors": [
+        "RSI > 72 overbought",
+        "Order Block resistance test",
+        "Declining buy volume"
+      ],
+      "status": "PENDING",
+      "isAiGenerated": true
+    }
+  ],
+  "paperAccount": {
+    "balanceUsd": 48999,
+    "initialBalanceUsd": 50000,
+    "equityUsd": 48997.44,
+    "totalRealizedPnl": 0,
+    "totalFeesPaid": 1,
+    "totalSlippagePaid": 0.6,
+    "openPositions": [
+      {
+        "id": "pos-1793303211625-tfu7",
+        "symbol": "BTCUSDT",
+        "side": "LONG",
+        "entryPrice": 80917.27,
+        "quantity": 0.024717,
+        "amountUsd": 2000,
+        "leverage": 2,
+        "openedAt": 1793303211625,
+        "currentPrice": 80885.76,
+        "unrealizedPnl": -1.56,
+        "unrealizedPnlPercent": -0.08,
+        "marginUsed": 1000
+      }
+    ],
+    "tradeHistory": [],
+    "maxDrawdownPercent": 2.01,
+    "peakEquityUsd": 50000
+  },
+  "settings": {
+    "initialPaperBalance": 50000,
+    "makerFeePercent": 0.02,
+    "takerFeePercent": 0.05,
+    "simulatedSlippagePercent": 0.03,
+    "defaultRiskPercentage": 1.5,
+    "currency": "USDT",
+    "refreshIntervalSeconds": 10
+  },
+  "backtestHistory": [
+    {
+      "id": "bt-1793303205693",
+      "strategyName": "EMA_CROSSOVER",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-29",
+      "initialBalance": 50000,
+      "finalBalance": 48947.7,
+      "totalTrades": 1,
+      "winningTrades": 0,
+      "losingTrades": 1,
+      "winRatePercent": 0,
+      "profitFactor": 0,
+      "netProfitUsd": -1052.3,
+      "netProfitPercent": -2.1,
+      "maxDrawdownPercent": 2.1,
+      "trades": [
+        {
+          "entryTime": 1793037600,
+          "exitTime": 1793289600,
+          "side": "SHORT",
+          "entryPrice": 79968.01,
+          "exitPrice": 81991.8,
+          "pnlPercent": -2.53,
+          "pnlUsd": -1052.3,
+          "reason": "SL"
+        }
+      ],
+      "equityCurve": [
+        {
+          "time": 1792944000,
+          "equity": 50000
+        },
+        {
+          "time": 1793289600,
+          "equity": 48947.7
+        }
+      ]
+    }
+  ]
+}
